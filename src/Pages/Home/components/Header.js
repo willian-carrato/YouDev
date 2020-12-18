@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '@material-ui/core';
 
 const Header = () => {
   return (
@@ -11,8 +12,10 @@ const Header = () => {
           </div>
           <div className="">
             {/* grupo direita */}
-            <button>Nova Postagem</button>
-            <span>img1</span>
+            <Button color="primary" variant="contained">
+              Nova Postagem
+            </Button>
+            <span>img-1</span>
             <span>img2</span>
           </div>
         </div>
